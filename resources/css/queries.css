@@ -19,12 +19,13 @@
 
   .footer-nav li {
     width: 100%;
+    line-height: 150%;
     /* font-size: 80%; */
   }
 
   .social-links {
     position: relative;
-    top: -92px;
+    top: -120px;
   }
 
 }
