@@ -235,6 +235,14 @@ header {
   margin-top: 20px;
 }
 
+.logo-black {
+  display: none;
+  height: 50px;
+  width: auto;
+  float: left;
+  margin: 5px 0;
+}
+
 /* nav bar */
 .main-nav {
   /* puts navbar to the right */
@@ -257,7 +265,7 @@ header {
   color: var(--regularText-color);
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 90%;
+  font-size: 70%;
   /* border exists but not visible if not hovered over */
   border-bottom: 2px solid transparent;
   transition: border-bottom 0.2s;
@@ -268,6 +276,34 @@ header {
   border-bottom: 2px solid var(--buttonHover-color);
 }
 
+/* sticky navbar */
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 2px 2px #efefef ;
+  z-index: 9999;
+}
+
+.sticky .main-nav {
+  margin-top: 18px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  /* some padding between border and link */
+  padding: 16px 0;
+  color: #555;
+}
+
+.sticky .logo {
+  display: none;
+}
+.sticky .logo-black {
+  display: block;
+}
 /* ----------------------------------------------------------------------------------*/
 /*                            Features                                               */
 /* ----------------------------------------------------------------------------------*/
@@ -575,8 +611,9 @@ footer p {
   margin-top: 20px;
 }
 
-.leMaison {
+footer .footerLink {
   text-decoration: none;
+  border-bottom: none;
 }
 
 footer a:hover {
