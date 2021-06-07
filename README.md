@@ -9,7 +9,7 @@
 
 ## Demo
 
-![](https://media.giphy.com/media/JVNUG9q1ZPjcorwUpm/giphy.gif)
+![](https://media.giphy.com/media/9vA6e6Mq5NTyqqM8Ek/giphy.gif)
 
 Check out a live demo at
 https://frosty-cori-304aee.netlify.app/
