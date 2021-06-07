@@ -275,6 +275,18 @@ header {
 .main-nav li a:active {
   border-bottom: 2px solid var(--buttonHover-color);
 }
+/* Mobile navbar */
+.mobile-nav-icon {
+  cursor: pointer;
+  float: right;
+  margin-top: 30px;
+  display: none;
+}
+
+.mobile-nav-icon i {
+  font-size: 200%;
+  color: #fff;
+}
 
 /* sticky navbar */
 .sticky {
@@ -643,9 +655,7 @@ footer a:hover {
   transition: color 0.2s;
 }
 
-/* main {
-  margin: 10px;
-} */
+
 
 /* ----------------------------------------------------------------------------------*/
 /*                            Animation                                       */
