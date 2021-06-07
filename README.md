@@ -9,11 +9,14 @@
 
 ## Demo
 
+![](https://media.giphy.com/media/JVNUG9q1ZPjcorwUpm/giphy.gif)
+
 Check out a live demo at
 https://frosty-cori-304aee.netlify.app/
 
 ## Technologies Used
 
-- JavaScript
 - HTML
 - CSS
+- JavaScript
+- Jquery
