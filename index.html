@@ -579,15 +579,15 @@
       <div class="row">
         <form method="post" action="mailer.php" class="contact-form">
          <div class="row">
-           <?php
-             if($_GET['success'] == 1) {
-              echo "<div class=\"form-messages success\">Thank You! Your message has been sent.</div>";
-              }
-
-              if($_GET['success'] == -1) {
-              echo "<div class=\"form-messages error\">Oops! Something went wrong and we couldn't send your message</div>";
-              }
-              ?>
+             <?php
+                               if($_GET['success'] == 1)
+                                    echo "<div class='form-messages success'>Thank You! Your message has been sent.</div>";
+                                else
+                                    echo "<div class='form-messages error'>Oops! Something went wrong and we couldn't send your message</div>";
+                           ?>
+                            <div class="form-messages success">
+                                Thank You! Your message has been sent.
+                            </div>
          </div>
           <!-- Your Name row -->
           <div class="row">
